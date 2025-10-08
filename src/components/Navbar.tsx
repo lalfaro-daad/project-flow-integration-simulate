@@ -5,6 +5,10 @@ import { logout } from '../features/auth/authSlice';
 export default function Navbar() {
   const dispatch = useDispatch();
 
+  const handleLogout = () => {
+    dispatch(logout());
+  }
+
   return (
     <nav
       style={{
@@ -24,7 +28,7 @@ export default function Navbar() {
         <Link to="/help" style={{ color: 'white' }}>Ayuda</Link>
       </div>
       <button
-        onClick={() => dispatch(logout())}
+        onClick={handleLogout}
         style={{
           background: 'crimson',
           color: 'white',
