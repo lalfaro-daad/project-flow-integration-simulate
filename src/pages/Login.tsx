@@ -4,7 +4,7 @@ import { login } from '../features/auth/authSlice';
 import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState<string>('');
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -18,6 +18,7 @@ export default function Login() {
   };
 
   return (
+
     <div style={{ textAlign: 'center', marginTop: '5rem' }}>
       <h1>Iniciar sesión</h1>
       <input
