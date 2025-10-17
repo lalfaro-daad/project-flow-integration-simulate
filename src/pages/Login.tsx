@@ -17,7 +17,7 @@ export default function Login() {
 
   const handleLogin = () => {
     if (username.trim()) {
-      dispatch(login(username));
+      dispatch(login());
       navigate('/');
     } else {
       alert('Por favor ingresa un nombre de usuario.');
