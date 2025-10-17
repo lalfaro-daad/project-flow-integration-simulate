@@ -64,11 +64,11 @@ export default function Login() {
     //         className="w-46 h-46"
     //       />
     //     </div>
-    //     <div className="absolute top-[127%] left-[44%] w-11 h-11 bg-[#F9CB00] rounded-full"></div>
-    //     <div className="absolute top-[50%] right-[40%] w-14 h-14 bg-[#1E2E4C] rounded-full"></div>
-    //     <div className="absolute top-[40%] left-[45%] w-5 h-5 bg-white rounded-full"></div>
-    //     <div className="absolute top-[134%] right-[43%] w-5 h-5 bg-[#0B5EFF] rounded-full"></div>
-    //     <div className="absolute top-[90%] left-[40%] w-5 h-5 bg-[#005B8B] rounded-full"></div>
+    //       <div className="absolute top-[127%] left-[43%] w-11 h-11 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 xl:w-11 xl:h-11 bg-[#F9CB00] rounded-full"></div>
+    //       <div className="absolute top-[50%] right-[40%] w-14 h-14 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-14 xl:h-14 bg-[#1E2E4C] rounded-full"></div>
+    //       <div className="absolute top-[40%] left-[45%] w-5 h-5 sm:w-3 sm:h-3 md:w-4 md:h-4 lg:w-5 lg:h-5 xl:w-6 xl:h-6 bg-white rounded-full"></div>
+    //       <div className="absolute top-[134%] right-[43%] w-5 h-5 sm:w-3 sm:h-3 md:w-4 md:h-4 lg:w-5 lg:h-5 xl:w-6 xl:h-6 bg-[#0B5EFF] rounded-full"></div>
+    //       <div className="absolute top-[90%] left-[40%] w-5 h-5 sm:w-3 sm:h-3 md:w-4 md:h-4 lg:w-5 lg:h-5 xl:w-6 xl:h-6 bg-[#005B8B] rounded-full"></div>
     //   </div>
     //   <div className="flex-1 flex flex-col rounded-t-[30px] bg-white items-center">
     //     <h1 className="text-6xl font-extrabold text-blue-600 mt-44">Welcome Back</h1>

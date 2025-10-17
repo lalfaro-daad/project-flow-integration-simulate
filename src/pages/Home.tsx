@@ -71,30 +71,29 @@ export default function Home() {
       {/* Formulario de prueba */}
       <div className="max-w-md mx-auto bg-white rounded-xl shadow-md p-6 mb-8">
         <form className="flex max-w-md flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
-      <div>
-        <div className="mb-2 block">
-          <Label htmlFor="email1">Your email</Label>
-        </div>
-        <TextInput id="email1" type="email" placeholder="name@flowbite.com" required {...register("email1")}/>
-          {errors.email1 && <p className="text-red-500 text-sm">{errors.email1.message}</p>}
-      </div>
-      <div>
-        <div className="mb-2 block">
-          <Label htmlFor="password1">Your password</Label>
-        </div>
-        <TextInput id="password1" type="password" required  {...register("password1")}/>
-          {errors.password1 && <p className="text-red-500 text-sm">{errors.password1.message}</p>}
-      </div>
-    <div className="flex items-center w-full">
-      <div className="flex items-center gap-2">
-        <Checkbox id="remember" />
-        <Label htmlFor="remember">Remember me</Label>
-      </div>
-      <a href="#" className="text-gray-300 text-sm ml-auto">Forgot your password?</a>
-    </div>
-     
-      <Button pill type="submit">Submit</Button>
-    </form>
+          <div>
+            <div className="mb-2 block">
+              <Label htmlFor="email1">Your email</Label>
+            </div>
+            <TextInput id="email1" type="email" placeholder="name@flowbite.com" required {...register("email1")}/>
+              {errors.email1 && <p className="text-red-500 text-sm">{errors.email1.message}</p>}
+          </div>
+          <div>
+            <div className="mb-2 block">
+              <Label htmlFor="password1">Your password</Label>
+            </div>
+            <TextInput id="password1" type="password" required  {...register("password1")}/>
+              {errors.password1 && <p className="text-red-500 text-sm">{errors.password1.message}</p>}
+          </div>
+          <div className="flex items-center w-full">
+            <div className="flex items-center gap-2">
+              <Checkbox id="remember" />
+              <Label htmlFor="remember">Remember me</Label>
+            </div>
+            <a href="#" className="text-gray-300 text-sm ml-auto">Forgot your password?</a>
+          </div>
+          <Button pill type="submit">Submit</Button>
+        </form>
       </div>
 
       {/* Botones de prueba */}
